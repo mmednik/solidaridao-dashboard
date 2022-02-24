@@ -7,10 +7,9 @@ const bundleDrop = sdk.getBundleDropModule(
 (async () => {
   try {
     const claimConditionFactory = bundleDrop.getClaimConditionFactory();
-    // Specify conditions.
     claimConditionFactory.newClaimPhase({
       startTime: new Date(),
-      maxQuantity: 50_000,
+      maxQuantity: 1000,
       maxQuantityPerTransaction: 1,
     });
     
