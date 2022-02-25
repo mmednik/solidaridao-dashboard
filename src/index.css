@@ -7,7 +7,7 @@ body {
   animation: gradient-animation 4s ease infinite;
   background: -webkit-linear-gradient(left,#b0ef4b,#0de7ff);
   background-size: 200% 200%;
-  color: #fff;
+  color: rgb(29, 29, 29);
   overflow-x: hidden;
 }
 #root {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -95,7 +95,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: rgb(200, 255, 0);
 }
 
 .member-page form .card > div {
@@ -109,11 +109,10 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 1rem;
   border-radius: 1rem;
-  color: #000;
-  box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
+  color: #fff;
 }
 
 button {
