@@ -1,11 +1,35 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+# SolidariDAO Dashbaord
+## _dApp for DAO dashboard_
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+Very simple implementation of a solidarity DAO (SolidariDAO) and its dashboard dApp.
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
-3. Start coding!
+## Features
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
+- DAO:
+  - NFT as membership pass
+  - ERC20 token
+  - Vote module
+
+- Dashboard:
+  - Mint NFT
+  - Connect wallet (Metamask)
+  - See & vote proposals
+
+
+## Tech
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Ethers](https://docs.ethers.io/v5/getting-started/) - The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. It was originally designed for use with ethers.io and has since expanded into a more general-purpose library.
+- [ThirdWeb](https://thirdweb.com/) - Build web3 apps easily. Implement web3 features with powerful SDKs for developers. Drop NFTs with no code.
+
+
+## Live
+
+Test live app: [https://solidaridao-dashboard.vercel.app/](https://solidaridao-dashboard.vercel.app/)
+
+
+## License
+
+MIT
+
+**Open Software, Hell Yeah!**
